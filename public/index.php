@@ -7,7 +7,7 @@ use Symfony\Component\HttpFoundation\Request;
 
 $request = Request::createFromGlobals();
 
-$app = new Canary\Canary();
+$app = new Canary\Foundation\Canary();
 
 $app->map('/', function () {
     return "Hello world!";

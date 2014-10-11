@@ -4,9 +4,13 @@
         "symfony/http-kernel": "2.5",
         "symfony/routing": "2.5"
     },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.*",
+        "guzzlehttp/guzzle": "~4.0"
+    },
     "autoload": {
         "psr-4": {
-            "Canary\\": "app/Canary"
+            "Canary\\Foundation\\": "app/Canary/Foundation"
         }
     }
 }

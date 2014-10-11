@@ -1,6 +1,6 @@
 <?php
 
-namespace Canary;
+namespace Canary\Foundation;
 
 use Symfony\Component\Routing\Route;
 use Symfony\Component\HttpFoundation\Request;
@@ -42,6 +42,7 @@ class Canary implements HttpKernelInterface
         return $response;
 
     }
+
 
     public function map($path, \Closure $controller)
     {
